@@ -1,0 +1,33 @@
+The 13 principles of clean code:
+
+1-Follow consistent naming conventions: Use clear and meaningful names for variables, functions, classes, and other entities in your code. Names should reveal the intent.
+
+2-Keep functions small: Functions should be small and do only one thing. If a function is more than a few lines long, consider refactoring it into smaller functions.
+
+3-Write meaningful comments: Comments should add value and explain the "why" behind the code. Avoid redundant comments that simply restate what the code is doing.
+
+4-Use readable formatting: Proper indentation, spacing, and line breaks enhance code readability. Code should be visually appealing and easy to follow.
+
+5-Limit the scope of variables: Declare variables as close to their usage as possible and keep their scope minimal to avoid unintended side effects.
+
+6-Use descriptive and unambiguous names: Names should describe the purpose and usage of the entity they represent. Avoid cryptic abbreviations and ensure names are understandable.
+
+7-Encapsulate behavior: Encapsulate code into classes and functions to hide implementation details and expose only necessary functionality.
+
+8-Prefer immutability: Immutable objects are easier to reason about and lead to fewer bugs. Use immutable data structures and avoid changing the state of objects.
+
+9-Avoid side effects: Functions should not produce unexpected side effects. A function should return a result based on its input without altering the state of the system.
+
+10-Write unit tests: Ensure your code is testable and write unit tests to verify its correctness. Tests help catch bugs early and provide documentation for the code.
+
+11-DRY (Don't Repeat Yourself): Avoid duplicating code. Reuse code by creating reusable functions, classes, or modules.
+
+12-KISS (Keep It Simple, Stupid): Write simple and straightforward code. Avoid overengineering and unnecessary complexity.
+
+13-SOLID principles: Follow the SOLID principles to design robust and maintainable software:
+
+1-Single Responsibility Principle: A class should have one and only one reason to change, meaning it should have only one job or responsibility.
+2-Open/Closed Principle: Software entities should be open for extension but closed for modification.
+3-Liskov Substitution Principle: Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+4-Interface Segregation Principle: Clients should not be forced to depend on interfaces they do not use.
+5-Dependency Inversion Principle: High-level modules should not depend on low-level modules. Both should depend on abstractions.
